@@ -1,6 +1,7 @@
 class ParsersController < ApplicationController
 
-  def index
+  def parse
     #
+    render status:200
   end
 end
