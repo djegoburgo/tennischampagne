@@ -2,6 +2,6 @@ class ParsersController < ApplicationController
 
   def parse
     #
-    render status:200
+    head :ok
   end
 end
